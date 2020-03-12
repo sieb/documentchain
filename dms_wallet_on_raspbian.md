@@ -28,7 +28,7 @@ cd .. `./autogen.sh` ;
 ***
 Simplified:
 
- * __My owner overflow__:
+ * __My owner workflow__:
  
  1 - cd depends and `make HOST=arm-linux-gnueabihf -j4` ;
  

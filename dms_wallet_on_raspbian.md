@@ -29,9 +29,13 @@ cd .. `./autogen.sh` ;
 Simplified:
 
  * __My owner overflow__:
+ 
  1 - cd depends and `make HOST=arm-linux-gnueabihf -j4` ;
+ 
  2 - cd .. `./autogen.sh` ;
+ 
  3 - ./configure --prefix `pwd`/depends/arm-linux-gnueabihf
+ 
  4 - `make`
 
 The binaries generated in src directory.

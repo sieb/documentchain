@@ -37,7 +37,7 @@ Simplified:
  
  2 - cd .. `./autogen.sh` ;
  
- 3 - ./configure --prefix `pwd`/depends/arm-linux-gnueabihf
+ 3 - `./configure --prefix `pwd`/depends/arm-linux-gnueabihf` 
  
  4 - `make`
 

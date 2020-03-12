@@ -13,8 +13,11 @@ something like `arm-linux-gnueabihf` for raspbian!
  * Please replace `<host>` with your local system's `host-platform-triplet`. The following triplets are usually valid:
 
 `arm-linux-gnueabihf` for Linux ARM 32 bit (All Raspbian generic)
+
 `aarch64-linux-gnu` for Linux ARM 64 bit
+
 `i686-linux-gnu` for Linux Intel86 32 bit 
+
 `x86_64-linux-gnu` for Ubuntu 18.04 AMD
 
 cd depends and `make HOST=host-platform-triplet -j4` ; your own hpt!
